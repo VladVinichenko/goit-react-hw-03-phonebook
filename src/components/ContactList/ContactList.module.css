@@ -1,0 +1,33 @@
+.item {
+  border-radius: var(--card-radius);
+  padding: 5px 10px;
+  background-color: var(--background-color);
+  color: var(--font-primary-color);
+  transition: all 250ms;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.item:hover {
+  background-color: rgb(63, 41, 61);
+}
+
+.name {
+  margin-right: auto;
+  color: var(--font-primary-color);
+}
+
+.number {
+  color: var(--font-seconary-color);
+  margin: 0 10px;
+}
+
+.text {
+  font-size: 20px;
+  color: red;
+}

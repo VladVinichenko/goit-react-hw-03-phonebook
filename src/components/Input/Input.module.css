@@ -1,0 +1,27 @@
+.name {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: var(--font-primary-color);
+}
+
+.input {
+  padding: 8px 15px;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  border-radius: var(--card-radius);
+  width: 100%;
+  background-color: rgb(177, 177, 177);
+  color: rgb(29, 29, 29);
+  transition: all 250ms;
+}
+
+.input:hover,
+.input:focus {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.input:not(:last-child) {
+  margin-bottom: 20px;
+}
